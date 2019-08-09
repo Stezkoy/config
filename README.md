@@ -5,9 +5,9 @@
 ## // Fonts
 Install all fonts <br />
 
-`yay -S otf-font-awesome`
-`yay -S ttf-font-awesome`
-`yay -S siji-git`
+`yay -S otf-font-awesome`<br />
+`yay -S ttf-font-awesome`<br />
+`yay -S siji-git`<br />
 `yay -S ttf-iosevka` <br />
 
 ## // Panel
