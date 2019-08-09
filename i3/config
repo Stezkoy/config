@@ -102,14 +102,14 @@ bindsym $mod+a focus parent
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
-set $ws1 "1   Browser"
-set $ws2 "2   Chat"
-set $ws3 "3   Terminal"
-set $ws4 "4   Other"
-set $ws5 "5   Edit"
-set $ws6 "6   Games"
-set $ws7 "7   Video"
-set $ws8 "8   Music"
+set $ws1 "1   Browser"
+set $ws2 "2   Chat"
+set $ws3 "3   Terminal"
+set $ws4 "4   Other"
+set $ws5 "5   Edit"
+set $ws6 "6   Games"
+set $ws7 "7   Video"
+set $ws8 "8   Music"
 set $ws9 "9"
 set $ws10 "0"
 
@@ -173,6 +173,7 @@ for_window [class="Cromium"] border pixel 2
 for_window [class="Opera"] border pixel 2
 for_window [class="Caja"] floating enable border pixel 2
 for_window [class="URxvt"] floating enable border pixel 2
+for_window [class="Geany"] floating enable border pixel 2
 for_window [class="vlc"] border pixel 2 
 for_window [class="TelegramDesktop"] border pixel 2
 for_window [class="Fractal"] border pixel 2
