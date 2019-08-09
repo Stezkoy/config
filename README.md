@@ -5,16 +5,16 @@
 ## // Fonts
 Install all fonts <br />
 
-`yay -S otf-font-awesome`<br />
-`yay -S ttf-font-awesome`<br />
-`yay -S siji-git`<br />
-`yay -S ttf-iosevka` <br />
+-`yay -S otf-font-awesome`<br />
+-`yay -S ttf-font-awesome`<br />
+-`yay -S siji-git`<br />
+-`yay -S ttf-iosevka` <br />
 
 ## // Panel
 
 Uses the bumblebee-status panel <br />
 
-`yay -S bumblebee-status` <br />
+-`yay -S bumblebee-status` <br />
 
 Shortcuts:
 

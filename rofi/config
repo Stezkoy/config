@@ -1,0 +1,6 @@
+rofi.theme: /usr/share/rofi/themes/Monokai.rasi
+rofi.show-icons:       true
+rofi.icon-theme:       Papirus-Dark
+rofi.font:                Iosevka Medium 14
+rofi.fake-transparency:   false
+rofi.hide-scrollbar:      true
