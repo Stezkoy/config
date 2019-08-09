@@ -45,7 +45,7 @@ URxvt.boldFont: xft:Iosevka:bold:pixelsize=20:antialias=true
 
 
 ! Цвет фона
-URxvt*background: #140d0a
+URxvt*background: #303030
 ! Цвет текста
 URxvt*foreground: #D0D0D0
 ! Выделение подчеркнутого текста синим [ссылок]
@@ -69,6 +69,6 @@ URxvt.transparent: fasle
 URxvt.shading: 15
 
 ! первоночальный размер окна
-URxvt.geometry: 80x22
+URxvt.geometry: 80x23
 
 Xft.dpi: 103

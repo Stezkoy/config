@@ -47,7 +47,7 @@ exec --no-startup-id nm-applet
 ##exec --no-startup-id blueman-applet
 exec_always --no-startup-id setxkbmap "us,ru" "" "grp:ctrl_shift_toggle"
 exec --no-startup-id feh --bg-scale ~/filesi3/829374205.jpg
-exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+exec --no-startup-id /usr/lib/mate-polkit/polkit-mate-authentication-agent-1
 exec --no-startup-id optimus-manager-qt
 #exec --no-startup-id clipit
 exec --no-startup-id flameshot
@@ -139,28 +139,27 @@ bindsym $mod+Shift+0 move container to workspace $ws10
 
 assign [class="TelegramDesktop"] $ws2
 assign [class="Steam"] $ws6
-assign [class="konsole"] $ws3
-assign [class="kate"] $ws5
+assign [class="Pluma"] $ws5
+assign [class="Geany"] $ws5
 assign [class="Pavucontrol"] $ws4
 assign [class="GParted"] $ws4
 assign [class="Lightdm-gtk-greeter-settings"] $ws4
 assign [class="Lxappearance"] $ws4
-assign [class="dolphin"] $ws4
+assign [class="Caja"] $ws4
 assign [class="partitionmanager"] $ws4
-assign [class="Google-chrome"] $ws1
+assign [class="Chromium"] $ws1
 assign [class="Opera"] $ws1
 assign [class="vlc"] $ws7
-assign [class="nheko"] $ws2
+assign [class="Fractal"] $ws2
 assign [class="qutebrowser"] $ws1
 assign [class="URxvt"] $ws3
 
 # Open specific applications in floating mode
 for_window [title="alsamixer"] floating enable border pixel 2
-for_window [class="Calamares"] floating enable border normal
 for_window [class="Clipgrab"] floating enable
 for_window [title="File Transfer*"] floating enable
 for_window [class="kcalc"] floating enable border pixel 2
-for_window [class="partitionmanager"] floating enable border normal
+for_window [class="Gparted"] floating enable border normal
 for_window [class="Lightdm-gtk-greeter-settings"] floating enable
 for_window [class="Lxappearance"] floating enable sticky enable border normal
 for_window [title="MuseScore: Play Panel"] floating enable
@@ -170,15 +169,13 @@ for_window [class="Simple-scan"] floating enable border normal
 for_window [class="Thus"] floating enable border normal
 for_window [class="Timeset-gui"] floating enable border normal
 for_window [class="Steam"] border none
-for_window [class="kate"] floating enable border none
-for_window [class="konsole"] floating enable border pixel 2
-for_window [class="Google-chrome"] border pixel 2
+for_window [class="Cromium"] border pixel 2
 for_window [class="Opera"] border pixel 2
-for_window [class="dolphin"] floating enable border pixel 2
+for_window [class="Caja"] floating enable border pixel 2
 for_window [class="URxvt"] floating enable border pixel 2
 for_window [class="vlc"] border pixel 2 
 for_window [class="TelegramDesktop"] border pixel 2
-for_window [class="nheko"] border pixel 2
+for_window [class="Fractal"] border pixel 2
 for_window [class="qutebrowser"] border pixel 2
 
 #Bind start APP
@@ -243,16 +240,16 @@ status_command bumblebee-status -m weather bluetooth brightness amixer layout-xk
 	font pango:Iosevka 13      
 	position         top
 colors {
-        background #140d0a
+        background #303030
        statusline #F9FAF9
        separator  #454947
-
+#цвет кнопок столов
 #                      border  backgr. text
-	focused_workspace  #FF8973 #140d0a #FF8973
-       active_workspace   #140d0a #140d0a #BF4630	
-       inactive_workspace #140d0a #140d0a #EEE8D5
-       binding_mode       #140d0a #2C2C2C #F9FAF9
-       urgent_workspace   #140d0a #140d0a #E5201D
+	focused_workspace  #303030 #303030 #FF8973
+       active_workspace   #303030 #303030 #BF4630	
+       inactive_workspace #303030 #303030 #EEE8D5
+       binding_mode       #303030 #2C2C2C #F9FAF9
+       urgent_workspace   #303030 #303030 #E5201D
   }
 }
 
@@ -260,14 +257,12 @@ colors {
 #color by stezko
 # Theme colors
 # class                   border  backgr. text    indic.   child_border
-  client.focused          #140d0a #140d0a #AB4D45 #FDF6E3
+  client.focused          #3b261d #3b261d #AB4D45 #FDF6E3
   client.focused_inactive #3b261d #3b261d #FF8973 #454948
   client.unfocused        #3b261d #3b261d #FF8973 #454948
   client.urgent           #CB4B16 #FDF6E3 #1AB2BD #268BD2
   client.placeholder      #000000 #0c0c0c #ffffff #000000 
-
-  client.background       #140d0a
-
+  client.background       #303030
 # Set inner/outer gaps
 gaps inner 3 
 gaps outer 3
