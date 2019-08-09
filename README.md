@@ -5,15 +5,16 @@
 ## // Fonts
 Install all fonts <br />
 
-- yay -S otf-font-awesome
-- yay -S ttf-font-awesome
-- yay -S siji-git <br />
+'yay -S otf-font-awesome'
+'yay -S ttf-font-awesome'
+'yay -S siji-git'
+'yay -S ttf-iosevka' <br />
 
 ## // Panel
 
 Uses the bumblebee-status panel <br />
 
-- yay -S bumblebee-status <br />
+'yay -S bumblebee-status' <br />
 
 Shortcuts:
 
@@ -33,4 +34,4 @@ Shortcuts:
 | $mod + l                   | Lock the system                                                                     |
 | $mod + z                   | Rofi GUI to switch to a window                                                      |
 | $mod + x                   | Rofi GUI to open a program                                                          |
-| $mod + d                   | Rofi GUI to open a program        	                                               |
+| $mod + d                   | Rofi GUI to open a program                                                          |
