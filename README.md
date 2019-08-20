@@ -1,4 +1,5 @@
 ![logo](https://raw.githubusercontent.com/Stezkoy/config/master/screen1.png) <br />
+![logo](https://raw.githubusercontent.com/Stezkoy/config/master/screen2.png) <br />
 
 # config
 
@@ -15,6 +16,14 @@ Install all fonts <br />
 Uses the bumblebee-status panel <br />
 
 -`yay -S bumblebee-status` <br />
+
+## // Packages
+
+-`sudo pacman -S rxvt-unicode` <br />
+-`yay -S materia-gtk-theme` <br />
+-`yay -S rofi-git` <br />
+-`yay -S python-xkbgroup` <br />
+
 
 Shortcuts:
 
