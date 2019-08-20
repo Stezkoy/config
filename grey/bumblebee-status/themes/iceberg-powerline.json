@@ -1,0 +1,50 @@
+{
+    "icons": [ "awesome-fonts" ],
+    "defaults": {
+        "separator-block-width": 0,
+        "warning": {
+            "fg": "#0f1117",
+            "bg": "#e2a478"
+        },
+        "critical": {
+            "fg": "#0f1117",
+            "bg": "#e27878"
+        }
+    },
+    "cycle": [
+        { "fg": "#303030", "bg": "#ACBABC" },
+        { "fg": "#EEE8D5", "bg": "#303030" },
+        { "fg": "#303030", "bg": "#ACBABC" },
+        { "fg": "#EEE8D5", "bg": "#303030" },
+        { "fg": "#303030", "bg": "#ACBABC" },
+        { "fg": "#EEE8D5", "bg": "#303030" }
+    ],
+    "dnf": {
+        "good": {
+            "fg": "#b4be82",
+            "bg": "#161821"
+        }
+    },
+    "apt": {
+        "good": {
+            "fg": "#b4be82",
+            "bg": "#161821"
+        }
+    },
+    "pacman": {
+        "good": {
+            "fg": "b4be82",
+            "bg": "#161821"
+        }
+    },
+    "battery": {
+        "charged": {
+            "fg": "#EEE8D5",
+            "bg": "#303030"
+        },
+        "charging": {
+            "fg": "#ACBABC",
+            "bg": "#303030"
+        }
+    }
+}
